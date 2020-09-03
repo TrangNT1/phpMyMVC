@@ -29,12 +29,14 @@ $routes = [
     "nguoidung" =>
     [
         "name" => "user", "action" => [
-            "xoa" => ["name" => "delete"],
+            "xoa-nguoi-dung" => ["name" => "deleteUser"],
             "hienthidangnhap" => ["name" => "showLogin"],
             "thuchiendangnhap" => ["name" => "doLogin"],
             "danhsach" => ["name" => "viewUser"],
             "them" => ["name" => 'viewAddUser'],
             "gui-them" => ["name" => 'addUser'],
+            "sua" => ["name" => 'viewSuaUser'],
+            "gui-cap-nhat" => ["name" => 'suaUser'],
         ]
     ]
 ];
